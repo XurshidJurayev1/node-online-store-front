@@ -10,6 +10,7 @@ const DevicePage = () => {
     const {id} = useParams()
     useEffect(() => {
         fetchOneDevices(id).then(data => setDevice(data))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 

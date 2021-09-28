@@ -24,6 +24,7 @@ const Auth = observer(() => {
             if(isLogin) {
                 data = await login(email, password)
             }else{
+                // eslint-disable-next-line no-unused-vars
                 data = await registration(email, password)
             }
             user.setUser(user)

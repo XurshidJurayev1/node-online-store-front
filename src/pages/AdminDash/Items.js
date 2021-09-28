@@ -2,7 +2,7 @@ import { observer } from 'mobx-react-lite'
 import React, { useContext, useState } from 'react'
 import {  Col, Button, Container, Row } from 'react-bootstrap'
 import { Context } from '../..'
-import { deleteBrands } from '../../http/DeviceAPI'
+// import { deleteBrands } from '../../http/DeviceAPI'
 
 
 const Items = observer(() => {
